@@ -1,0 +1,47 @@
+body {
+	background-color: rgb(175, 175, 175);
+}
+
+#inputs {
+	margin: 0 auto;
+	width: fit-content;
+}
+
+#inputs > input {
+	font-size: 1.2rem;
+}
+
+#inputs > button {
+	font-size: 1.2rem;
+}
+
+#weather-info {
+	background-color: white;
+	margin: 5vh auto;
+	font-size: 1.8rem;
+	border: 3px solid black;
+	border-radius: 6px;
+	width: fit-content;
+	padding: 12px;
+	font-family: 'Courier New', Courier, monospace;
+}
+
+#weather-info > h2 {
+	margin-top: 0px;
+	margin-bottom: 6px;
+}
+
+#weather-info > #temperature {
+	font-weight: 900;
+}
+
+#condition-div > p {
+	margin-top: 0px;
+}
+
+#loading-text {
+	font-size: 2rem;
+	font-weight: 900;
+	color: red;
+	text-align: center;
+}
