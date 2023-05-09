@@ -2,7 +2,7 @@ const API_KEY = "f644dd69d6ba436faf5235055231903";
 
 async function fetchLocation(location) {
 	try {
-		const response = await fetch(`http://api.weatherapi.com/v1/current.json?key=${API_KEY}&q=${location}&aqi=no`, {mode: "cors"});
+		const response = await fetch(`https://api.weatherapi.com/v1/current.json?key=${API_KEY}&q=${location}&aqi=no`, {mode: "cors"});
 		const data = await response.json();
 		return data;
 	} catch(e) {
